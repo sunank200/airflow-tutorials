@@ -1,0 +1,24 @@
+[2021-01-22 21:21:18,302] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: elasticsearch_dag.print_es_info 2021-01-22T21:21:16.847743+00:00 [queued]>
+[2021-01-22 21:21:18,319] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: elasticsearch_dag.print_es_info 2021-01-22T21:21:16.847743+00:00 [queued]>
+[2021-01-22 21:21:18,319] {taskinstance.py:1017} INFO - 
+--------------------------------------------------------------------------------
+[2021-01-22 21:21:18,319] {taskinstance.py:1018} INFO - Starting attempt 1 of 1
+[2021-01-22 21:21:18,319] {taskinstance.py:1019} INFO - 
+--------------------------------------------------------------------------------
+[2021-01-22 21:21:18,327] {taskinstance.py:1038} INFO - Executing <Task(PythonOperator): print_es_info> on 2021-01-22T21:21:16.847743+00:00
+[2021-01-22 21:21:18,330] {standard_task_runner.py:51} INFO - Started process 871133 to run task
+[2021-01-22 21:21:18,336] {standard_task_runner.py:75} INFO - Running: ['airflow', 'tasks', 'run', 'elasticsearch_dag', 'print_es_info', '2021-01-22T21:21:16.847743+00:00', '--job-id', '148', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/elasticsearch_dag.py', '--cfg-path', '/tmp/tmpk0vfoofn']
+[2021-01-22 21:21:18,336] {standard_task_runner.py:76} INFO - Job 148: Subtask print_es_info
+[2021-01-22 21:21:18,390] {logging_mixin.py:103} INFO - Running <TaskInstance: elasticsearch_dag.print_es_info 2021-01-22T21:21:16.847743+00:00 [running]> on host ip-172-31-18-6.ap-south-1.compute.internal
+[2021-01-22 21:21:18,440] {taskinstance.py:1232} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=elasticsearch_dag
+AIRFLOW_CTX_TASK_ID=print_es_info
+AIRFLOW_CTX_EXECUTION_DATE=2021-01-22T21:21:16.847743+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-01-22T21:21:16.847743+00:00
+[2021-01-22 21:21:18,450] {base.py:74} INFO - Using connection to: id: elasticsearch_default. Host: localhost, Port: 9200, Schema: http, Login: None, Password: None, extra: None
+[2021-01-22 21:21:18,452] {logging_mixin.py:103} INFO - <bound method Elasticsearch.info of <Elasticsearch([{'host': 'localhost'}])>>
+[2021-01-22 21:21:18,452] {python.py:118} INFO - Done. Returned value was: None
+[2021-01-22 21:21:18,463] {taskinstance.py:1142} INFO - Marking task as SUCCESS. dag_id=elasticsearch_dag, task_id=print_es_info, execution_date=20210122T212116, start_date=20210122T212118, end_date=20210122T212118
+[2021-01-22 21:21:18,495] {taskinstance.py:1195} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-01-22 21:21:18,507] {local_task_job.py:118} INFO - Task exited with return code 0

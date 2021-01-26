@@ -1,0 +1,20 @@
+[2021-01-21 21:55:25,990] {scheduler_job.py:181} INFO - Started process (PID=33179) to work on /home/ubuntu/anaconda3/envs/airflow_udemy/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-01-21 21:55:25,991] {scheduler_job.py:629} INFO - Processing file /home/ubuntu/anaconda3/envs/airflow_udemy/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2021-01-21 21:55:25,991] {logging_mixin.py:103} INFO - [2021-01-21 21:55:25,991] {dagbag.py:440} INFO - Filling up the DagBag from /home/ubuntu/anaconda3/envs/airflow_udemy/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-01-21 21:55:25,994] {scheduler_job.py:641} WARNING - No viable dags retrieved from /home/ubuntu/anaconda3/envs/airflow_udemy/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-01-21 21:55:25,999] {scheduler_job.py:189} INFO - Processing /home/ubuntu/anaconda3/envs/airflow_udemy/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py took 0.012 seconds
+[2021-01-21 21:55:54,793] {scheduler_job.py:181} INFO - Started process (PID=33252) to work on /home/ubuntu/anaconda3/envs/airflow_udemy/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-01-21 21:55:54,794] {scheduler_job.py:629} INFO - Processing file /home/ubuntu/anaconda3/envs/airflow_udemy/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2021-01-21 21:55:54,794] {logging_mixin.py:103} INFO - [2021-01-21 21:55:54,794] {dagbag.py:440} INFO - Filling up the DagBag from /home/ubuntu/anaconda3/envs/airflow_udemy/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-01-21 21:55:54,796] {scheduler_job.py:641} WARNING - No viable dags retrieved from /home/ubuntu/anaconda3/envs/airflow_udemy/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-01-21 21:55:54,802] {scheduler_job.py:189} INFO - Processing /home/ubuntu/anaconda3/envs/airflow_udemy/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py took 0.012 seconds
+[2021-01-21 21:56:23,652] {scheduler_job.py:181} INFO - Started process (PID=33334) to work on /home/ubuntu/anaconda3/envs/airflow_udemy/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-01-21 21:56:23,654] {scheduler_job.py:629} INFO - Processing file /home/ubuntu/anaconda3/envs/airflow_udemy/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2021-01-21 21:56:23,654] {logging_mixin.py:103} INFO - [2021-01-21 21:56:23,654] {dagbag.py:440} INFO - Filling up the DagBag from /home/ubuntu/anaconda3/envs/airflow_udemy/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-01-21 21:56:23,657] {scheduler_job.py:641} WARNING - No viable dags retrieved from /home/ubuntu/anaconda3/envs/airflow_udemy/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-01-21 21:56:23,662] {scheduler_job.py:189} INFO - Processing /home/ubuntu/anaconda3/envs/airflow_udemy/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py took 0.012 seconds
+[2021-01-21 21:56:51,618] {scheduler_job.py:181} INFO - Started process (PID=33405) to work on /home/ubuntu/anaconda3/envs/airflow_udemy/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-01-21 21:56:51,619] {scheduler_job.py:629} INFO - Processing file /home/ubuntu/anaconda3/envs/airflow_udemy/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2021-01-21 21:56:51,620] {logging_mixin.py:103} INFO - [2021-01-21 21:56:51,620] {dagbag.py:440} INFO - Filling up the DagBag from /home/ubuntu/anaconda3/envs/airflow_udemy/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-01-21 21:56:51,622] {scheduler_job.py:641} WARNING - No viable dags retrieved from /home/ubuntu/anaconda3/envs/airflow_udemy/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py
+[2021-01-21 21:56:51,627] {scheduler_job.py:189} INFO - Processing /home/ubuntu/anaconda3/envs/airflow_udemy/lib/python3.7/site-packages/airflow/example_dags/subdags/subdag.py took 0.011 seconds

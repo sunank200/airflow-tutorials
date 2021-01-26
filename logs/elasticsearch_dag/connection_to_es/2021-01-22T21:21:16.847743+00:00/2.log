@@ -1,0 +1,37 @@
+[2021-01-22 21:22:21,753] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: elasticsearch_dag.connection_to_es 2021-01-22T21:21:16.847743+00:00 [queued]>
+[2021-01-22 21:22:21,769] {taskinstance.py:826} INFO - Dependencies all met for <TaskInstance: elasticsearch_dag.connection_to_es 2021-01-22T21:21:16.847743+00:00 [queued]>
+[2021-01-22 21:22:21,769] {taskinstance.py:1017} INFO - 
+--------------------------------------------------------------------------------
+[2021-01-22 21:22:21,769] {taskinstance.py:1018} INFO - Starting attempt 2 of 2
+[2021-01-22 21:22:21,769] {taskinstance.py:1019} INFO - 
+--------------------------------------------------------------------------------
+[2021-01-22 21:22:21,784] {taskinstance.py:1038} INFO - Executing <Task(PostgresToElasticOperator): connection_to_es> on 2021-01-22T21:21:16.847743+00:00
+[2021-01-22 21:22:21,787] {standard_task_runner.py:51} INFO - Started process 882119 to run task
+[2021-01-22 21:22:21,791] {standard_task_runner.py:75} INFO - Running: ['airflow', 'tasks', 'run', 'elasticsearch_dag', 'connection_to_es', '2021-01-22T21:21:16.847743+00:00', '--job-id', '150', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/elasticsearch_dag.py', '--cfg-path', '/tmp/tmp6z5utchs']
+[2021-01-22 21:22:21,791] {standard_task_runner.py:76} INFO - Job 150: Subtask connection_to_es
+[2021-01-22 21:22:21,840] {logging_mixin.py:103} INFO - Running <TaskInstance: elasticsearch_dag.connection_to_es 2021-01-22T21:21:16.847743+00:00 [running]> on host ip-172-31-18-6.ap-south-1.compute.internal
+[2021-01-22 21:22:21,889] {taskinstance.py:1232} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=elasticsearch_dag
+AIRFLOW_CTX_TASK_ID=connection_to_es
+AIRFLOW_CTX_EXECUTION_DATE=2021-01-22T21:21:16.847743+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-01-22T21:21:16.847743+00:00
+[2021-01-22 21:22:21,900] {base.py:74} INFO - Using connection to: id: elasticsearch_default. Host: localhost, Port: 9200, Schema: http, Login: None, Password: None, extra: None
+[2021-01-22 21:22:21,912] {base.py:74} INFO - Using connection to: id: postgres_default. Host: localhost, Port: 5432, Schema: , Login: postgres, Password: XXXXXXXX, extra: XXXXXXXX
+[2021-01-22 21:22:21,920] {taskinstance.py:1396} ERROR - index() got an unexpected keyword argument 'doc'
+Traceback (most recent call last):
+  File "/home/ubuntu/anaconda3/envs/airflow_udemy/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1086, in _run_raw_task
+    self._prepare_and_execute_task_with_callbacks(context, task)
+  File "/home/ubuntu/anaconda3/envs/airflow_udemy/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1260, in _prepare_and_execute_task_with_callbacks
+    result = self._execute_task(context, task_copy)
+  File "/home/ubuntu/anaconda3/envs/airflow_udemy/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1300, in _execute_task
+    result = task_copy.execute(context=context)
+  File "/home/ubuntu/airflow/plugins/elasticsearch_plugin/operators/postgres_to_elastic.py", line 29, in execute
+    es.add_doc(index=self.index, doc_type='external', doc=doc)
+  File "/home/ubuntu/airflow/plugins/elasticsearch_plugin/hooks/elastic_hook.py", line 35, in add_doc
+    res = self.es.index(index=index, doc_type=doc_type,doc=doc)
+  File "/home/ubuntu/anaconda3/envs/airflow_udemy/lib/python3.7/site-packages/elasticsearch/client/utils.py", line 152, in _wrapped
+    return func(*args, params=params, headers=headers, **kwargs)
+TypeError: index() got an unexpected keyword argument 'doc'
+[2021-01-22 21:22:21,921] {taskinstance.py:1440} INFO - Marking task as FAILED. dag_id=elasticsearch_dag, task_id=connection_to_es, execution_date=20210122T212116, start_date=20210122T212221, end_date=20210122T212221
+[2021-01-22 21:22:21,966] {local_task_job.py:118} INFO - Task exited with return code 1

@@ -1,0 +1,35 @@
+[2021-01-21 21:55:20,852] {scheduler_job.py:181} INFO - Started process (PID=33164) to work on /home/ubuntu/anaconda3/envs/airflow_udemy/lib/python3.7/site-packages/airflow/example_dags/test_utils.py
+[2021-01-21 21:55:20,852] {scheduler_job.py:629} INFO - Processing file /home/ubuntu/anaconda3/envs/airflow_udemy/lib/python3.7/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2021-01-21 21:55:20,853] {logging_mixin.py:103} INFO - [2021-01-21 21:55:20,853] {dagbag.py:440} INFO - Filling up the DagBag from /home/ubuntu/anaconda3/envs/airflow_udemy/lib/python3.7/site-packages/airflow/example_dags/test_utils.py
+[2021-01-21 21:55:20,860] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/ubuntu/anaconda3/envs/airflow_udemy/lib/python3.7/site-packages/airflow/example_dags/test_utils.py
+[2021-01-21 21:55:20,860] {logging_mixin.py:103} INFO - [2021-01-21 21:55:20,860] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-01-21 21:55:20,874] {logging_mixin.py:103} INFO - [2021-01-21 21:55:20,874] {dag.py:2266} INFO - Setting next_dagrun for test_utils to None
+[2021-01-21 21:55:20,885] {scheduler_job.py:189} INFO - Processing /home/ubuntu/anaconda3/envs/airflow_udemy/lib/python3.7/site-packages/airflow/example_dags/test_utils.py took 0.036 seconds
+[2021-01-21 21:55:48,813] {scheduler_job.py:181} INFO - Started process (PID=33236) to work on /home/ubuntu/anaconda3/envs/airflow_udemy/lib/python3.7/site-packages/airflow/example_dags/test_utils.py
+[2021-01-21 21:55:48,814] {scheduler_job.py:629} INFO - Processing file /home/ubuntu/anaconda3/envs/airflow_udemy/lib/python3.7/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2021-01-21 21:55:48,814] {logging_mixin.py:103} INFO - [2021-01-21 21:55:48,814] {dagbag.py:440} INFO - Filling up the DagBag from /home/ubuntu/anaconda3/envs/airflow_udemy/lib/python3.7/site-packages/airflow/example_dags/test_utils.py
+[2021-01-21 21:55:48,821] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/ubuntu/anaconda3/envs/airflow_udemy/lib/python3.7/site-packages/airflow/example_dags/test_utils.py
+[2021-01-21 21:55:48,822] {logging_mixin.py:103} INFO - [2021-01-21 21:55:48,822] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-01-21 21:55:48,836] {logging_mixin.py:103} INFO - [2021-01-21 21:55:48,836] {dag.py:2266} INFO - Setting next_dagrun for test_utils to None
+[2021-01-21 21:55:48,846] {scheduler_job.py:189} INFO - Processing /home/ubuntu/anaconda3/envs/airflow_udemy/lib/python3.7/site-packages/airflow/example_dags/test_utils.py took 0.036 seconds
+[2021-01-21 21:56:17,377] {scheduler_job.py:181} INFO - Started process (PID=33318) to work on /home/ubuntu/anaconda3/envs/airflow_udemy/lib/python3.7/site-packages/airflow/example_dags/test_utils.py
+[2021-01-21 21:56:17,377] {scheduler_job.py:629} INFO - Processing file /home/ubuntu/anaconda3/envs/airflow_udemy/lib/python3.7/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2021-01-21 21:56:17,378] {logging_mixin.py:103} INFO - [2021-01-21 21:56:17,378] {dagbag.py:440} INFO - Filling up the DagBag from /home/ubuntu/anaconda3/envs/airflow_udemy/lib/python3.7/site-packages/airflow/example_dags/test_utils.py
+[2021-01-21 21:56:17,385] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/ubuntu/anaconda3/envs/airflow_udemy/lib/python3.7/site-packages/airflow/example_dags/test_utils.py
+[2021-01-21 21:56:17,385] {logging_mixin.py:103} INFO - [2021-01-21 21:56:17,385] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-01-21 21:56:17,399] {logging_mixin.py:103} INFO - [2021-01-21 21:56:17,399] {dag.py:2266} INFO - Setting next_dagrun for test_utils to None
+[2021-01-21 21:56:17,410] {scheduler_job.py:189} INFO - Processing /home/ubuntu/anaconda3/envs/airflow_udemy/lib/python3.7/site-packages/airflow/example_dags/test_utils.py took 0.036 seconds
+[2021-01-21 21:56:45,351] {scheduler_job.py:181} INFO - Started process (PID=33390) to work on /home/ubuntu/anaconda3/envs/airflow_udemy/lib/python3.7/site-packages/airflow/example_dags/test_utils.py
+[2021-01-21 21:56:45,352] {scheduler_job.py:629} INFO - Processing file /home/ubuntu/anaconda3/envs/airflow_udemy/lib/python3.7/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2021-01-21 21:56:45,353] {logging_mixin.py:103} INFO - [2021-01-21 21:56:45,352] {dagbag.py:440} INFO - Filling up the DagBag from /home/ubuntu/anaconda3/envs/airflow_udemy/lib/python3.7/site-packages/airflow/example_dags/test_utils.py
+[2021-01-21 21:56:45,359] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/ubuntu/anaconda3/envs/airflow_udemy/lib/python3.7/site-packages/airflow/example_dags/test_utils.py
+[2021-01-21 21:56:45,360] {logging_mixin.py:103} INFO - [2021-01-21 21:56:45,360] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-01-21 21:56:45,374] {logging_mixin.py:103} INFO - [2021-01-21 21:56:45,374] {dag.py:2266} INFO - Setting next_dagrun for test_utils to None
+[2021-01-21 21:56:45,385] {scheduler_job.py:189} INFO - Processing /home/ubuntu/anaconda3/envs/airflow_udemy/lib/python3.7/site-packages/airflow/example_dags/test_utils.py took 0.036 seconds
+[2021-01-21 21:57:13,870] {scheduler_job.py:181} INFO - Started process (PID=33462) to work on /home/ubuntu/anaconda3/envs/airflow_udemy/lib/python3.7/site-packages/airflow/example_dags/test_utils.py
+[2021-01-21 21:57:13,871] {scheduler_job.py:629} INFO - Processing file /home/ubuntu/anaconda3/envs/airflow_udemy/lib/python3.7/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2021-01-21 21:57:13,872] {logging_mixin.py:103} INFO - [2021-01-21 21:57:13,872] {dagbag.py:440} INFO - Filling up the DagBag from /home/ubuntu/anaconda3/envs/airflow_udemy/lib/python3.7/site-packages/airflow/example_dags/test_utils.py
+[2021-01-21 21:57:13,878] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/ubuntu/anaconda3/envs/airflow_udemy/lib/python3.7/site-packages/airflow/example_dags/test_utils.py
+[2021-01-21 21:57:13,879] {logging_mixin.py:103} INFO - [2021-01-21 21:57:13,879] {dag.py:1813} INFO - Sync 1 DAGs
+[2021-01-21 21:57:13,893] {logging_mixin.py:103} INFO - [2021-01-21 21:57:13,893] {dag.py:2266} INFO - Setting next_dagrun for test_utils to None
+[2021-01-21 21:57:13,904] {scheduler_job.py:189} INFO - Processing /home/ubuntu/anaconda3/envs/airflow_udemy/lib/python3.7/site-packages/airflow/example_dags/test_utils.py took 0.036 seconds
