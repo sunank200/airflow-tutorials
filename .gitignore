@@ -1,0 +1,42 @@
+**/*.DS_Store
+**/__pycache__/
+**/*.idea
+*.egg-info
+*.pot
+*.py[co]
+.tox/
+__pycache__
+MANIFEST
+dist/
+docs/_build/
+docs/locale/
+node_modules/
+tests/coverage_html/
+tests/.coverage
+build/
+tests/report/
+*.sqlite3
+media
+logs/*
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environments
+.preprod_env
+.production_env
+.env-prod
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Visual Studio Code #
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history
